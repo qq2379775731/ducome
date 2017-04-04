@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ducome</string>
+    <string name="Setting">设置</string>
+   	<string name="StudnetActivity">学生</string>
+   	<string name="RollBookActivity">点名册</string>
+	<string name="NewRollBook">新建点名册</string>
+	<string name="NewStudent">添加学生</string>
+	
+	<string name="text_student_name">姓名:</string>
+	<string name="text_student_no">学号:</string>
+	<string name="text_student_nocometime">未到次数:</string>
+	
+	<string name="text_class_name">班级:</string>
+	<string name="text_student_number">人数:</string>
+	<string name="text_student_rolltime">点名次数:</string>
+	
+	<string name="action_settings">设置</string>
+	<string name="action_about">关于</string>
+	<string name="action_new_book">新建点名册</string>
+	<string name="action_delete_allbooks">删除全部</string>
+	
+	<string name="action_new_student">添加学生</string>
+	<string name="action_delete_allstudents">删除全部</string>
+</resources>

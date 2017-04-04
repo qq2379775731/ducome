@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:orientation="horizontal" >
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:orientation="vertical"  >
+  		
+        <LinearLayout 
+	        android:layout_width="wrap_content"
+	  		android:layout_height="wrap_content"
+	  		android:orientation="horizontal" >
+	        
+       	    <TextView
+		       android:layout_width="40dp"
+		       android:layout_height="wrap_content"
+		       android:text="@string/text_class_name" />
+
+		    <TextView
+		        android:id="@+id/tv_cls"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="0" />   
+		</LinearLayout>  
+    	  
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	  		android:layout_height="wrap_content"
+	  		android:orientation="horizontal"  >
+		    
+            <TextView
+		        android:layout_width="40dp"
+		        android:layout_height="wrap_content"
+		        android:text="@string/text_student_number" />
+            
+			<TextView
+		        android:id="@+id/tv_stuNum"
+		        android:layout_width="40dp"
+		        android:layout_height="wrap_content" 
+		        android:text="0" />
+			
+		    <TextView
+		        android:layout_width="60dp"
+		        android:layout_height="wrap_content"
+		        android:text="@string/text_student_rolltime" />
+		    
+		    <TextView
+		        android:id="@+id/tv_rollTime"
+		        android:layout_width="40dp"
+		       	android:layout_height="wrap_content" 
+		       	android:text="0" />     
+	    </LinearLayout> 
+	    
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_addrollTime"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/btn_subrollTime"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="-" />
+    
+	<Button 
+	    android:id="@+id/btn_bookSet"
+	    android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="..." />
+</LinearLayout>

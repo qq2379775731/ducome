@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="姓名"
+        android:textSize="30dp"
+        />
+
+    <EditText
+        android:id="@+id/et_stuName_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入姓名"
+        android:singleLine="true"
+        />
+	
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="学号"
+        android:textSize="30dp"
+        />
+
+    <EditText
+        android:id="@+id/et_stuNo_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入学号"
+        android:singleLine="true"
+        /> 
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="未到次数"
+        android:textSize="30dp"
+        />
+
+    <EditText
+        android:id="@+id/et_noComeTime_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入未到次数"
+        android:singleLine="true"
+        android:inputType="number"
+        />
+	
+    <LinearLayout 
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button 
+            android:id="@+id/btn_ok_newStudent"
+            android:text="确定"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="30dp"
+            />
+        <Button 
+            android:id="@+id/btn_cancel_newStudnet"
+            android:text="取消"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+            />
+        
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
